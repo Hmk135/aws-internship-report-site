@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-{{% notice warning %}}
- **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
-{{% /notice %}}
+
 
 ### Week 1 Objectives:
 - Setup the AWS learning environment and integrate with the FCAJ study group.

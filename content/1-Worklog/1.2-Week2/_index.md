@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-{{% notice warning %}}
- **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
-{{% /notice %}}
 
 ### Week 2 Objectives:
 - Understand Object Storage vs Block Storage.

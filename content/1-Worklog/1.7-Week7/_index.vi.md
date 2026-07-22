@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-{{% notice warning %}}
- **Lưu ý:** Nội dung dưới đây ghi chép lại các hoạt động học tập và thực hành đã hoàn thành trong tuần, được sử dụng cho báo cáo nhật ký công việc cá nhân.
-{{% /notice %}}
+
 
 ### Mục tiêu Tuần 7:
 - Thiết kế một mạng VPC bảo mật, tùy chỉnh riêng cho dự án RecruitPro.

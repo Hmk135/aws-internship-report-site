@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-{{% notice warning %}}
- **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
-{{% /notice %}}
+
 
 ### Week 12 Objectives:
 - Finalize the internship report and self-evaluation.

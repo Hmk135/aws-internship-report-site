@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-{{% notice warning %}}
- **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
-{{% /notice %}}
+
 
 ### Week 11 Objectives:
 - Implement system monitoring using Amazon CloudWatch.

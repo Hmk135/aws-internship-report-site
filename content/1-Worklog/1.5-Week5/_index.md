@@ -6,9 +6,7 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-{{% notice warning %}}
- **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
-{{% /notice %}}
+
 
 ### Week 5 Objectives:
 - Understand high availability concepts in cloud computing.
