@@ -214,4 +214,4 @@ Có thể theo dõi quá trình deploy trong tab **Actions** của repository.
 
 ## Nguồn giao diện
 
-Dự án được phát triển dựa trên FCJ Workshop Template và Hugo Learn Theme, sau đó được tùy chỉnh cho báo cáo thực tập AWS.
+Dự án được phát triển dựa trên FCJ Workshop Template và Hugo Learn Theme, sau đó được tùy chỉnh cho báo cáo thực tập AWS. 
