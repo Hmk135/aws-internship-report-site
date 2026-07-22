@@ -1,59 +1,31 @@
 ---
-title: "Worklog Tuần 8"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký Tuần 8"
+date: 2026-06-05
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+ **Lưu ý:** Nội dung dưới đây ghi chép lại các hoạt động học tập và thực hành đã hoàn thành trong tuần, được sử dụng cho báo cáo nhật ký công việc cá nhân.
 {{% /notice %}}
 
+### Mục tiêu Tuần 8:
+- Triển khai lớp cơ sở dữ liệu một cách bảo mật bên trong VPC tùy chỉnh.
+- Khởi chạy máy chủ EC2 backend trong private subnet.
+- Thiết lập kết nối thành công giữa backend và database.
 
-### Mục tiêu tuần 8:
+### Các công việc thực hiện trong tuần:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 05/06/2026 | Tạo DB Subnet Group gom chung hai private DB subnets bên trong RecruitPro-VPC. | 05/06/2026 | 05/06/2026 | RDS Console |
+| 06/06/2026 – 07/06/2026 | Khởi chạy RDS MySQL instance gắn vào private DB subnets. | 06/06/2026 | 07/06/2026 | AWS Management Console |
+| 08/06/2026 | Triển khai một Bastion Host tại Public Subnet để truy cập vào mạng nội bộ. | 08/06/2026 | 08/06/2026 | SSH Agent forwarding |
+| 09/06/2026 – 10/06/2026 | Khởi chạy EC2 Backend trong Private App Subnet và kết nối thông qua Bastion Host. | 09/06/2026 | 10/06/2026 | Định tuyến mạng |
+| 11/06/2026 | Cài đặt MySQL Client trên EC2 Backend và kiểm tra kết nối thành công đến RDS endpoint. | 11/06/2026 | 11/06/2026 | Linux CLI |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được trong Tuần 8:
+- Triển khai thành công một cơ sở dữ liệu hoàn toàn riêng tư (private) không thể truy cập từ bên ngoài.
+- Nắm vững khái niệm Bastion Host (Jump Box) để quản trị hệ thống nội bộ một cách an toàn.
+- Xác nhận đường truyền kết nối nội bộ giữa lớp Ứng dụng (Application tier) và lớp Dữ liệu (Database tier).

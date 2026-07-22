@@ -1,46 +1,25 @@
 ---
-title: "Các events đã tham gia"
-date: 2024-01-01
+title: "Sự kiện đã tham gia"
+date: 2026-07-22
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Sự kiện đã tham gia
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+Trong suốt quá trình thực tập, tôi đã tích cực tham gia các sự kiện của FCAJ để mở rộng kiến thức về hạ tầng AWS, bảo mật đám mây và cách tích hợp AI vào thực tế. Những sự kiện này mang lại cơ hội quý giá để học hỏi từ các chuyên gia trong ngành, thu nhận các góc nhìn thực tiễn và khám phá những phương pháp tối ưu (best practices) để áp dụng trực tiếp vào dự án RecruitPro cũng như định hướng nghề nghiệp tương lai.
 
+## [Sự kiện 1 – FCAJ Community Day](4.1-Event1/)
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+- **Ngày tham gia:** 23/05/2026.
+- **Vai trò:** Người tham dự.
+- **Chủ đề chính:** Kỹ thuật viết Prompt (tối ưu hóa ngữ cảnh), kiểm soát quyền truy cập dữ liệu trong AI, bảo mật với CloudFront, chiến lược thi đấu hackathon, tính khó lường của LLM và quy trình làm việc Multi-Agent trong doanh nghiệp.
+- **Kết quả đạt được:** Hiểu sâu hơn về cách xây dựng ngữ cảnh AI chính xác, biết cách tận dụng CloudFront như một lá chắn bảo vệ ứng dụng web và nhận thức được các tiêu chuẩn kiểm soát khắt khe khi triển khai hệ thống AI thực tế.
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+## [Sự kiện 2 – Bảo mật, Giám sát & Chứng chỉ AWS](4.2-Event2/)
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+- **Ngày tham gia:** 11/07/2026.
+- **Vai trò:** Người tham dự.
+- **Chủ đề chính:** Chiến lược thi chứng chỉ AWS Cloud Practitioner (phương pháp loại trừ, cạm bẫy ngôn ngữ), giám sát hệ thống thực chất vượt ra khỏi các chỉ số SLA cơ bản và bảo mật ứng dụng web bằng tác nhân AI tự trị (Frontier Agent).
+- **Kết quả đạt được:** Nắm bắt được các chiến thuật thiết thực để thi chứng chỉ AWS, thay đổi tư duy sang việc giám sát các chỉ số thực sự ảnh hưởng đến "sức khỏe" hệ thống và nhận ra tính hiệu quả của các rào cản xác thực mạnh (như MFA) trước các mối đe dọa từ AI tự động.

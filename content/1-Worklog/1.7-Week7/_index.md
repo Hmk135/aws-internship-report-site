@@ -1,57 +1,32 @@
 ---
 title: "Week 7 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-29
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+
+{{% notice warning %}}
+ **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
 {{% /notice %}}
 
-
 ### Week 7 Objectives:
+- Design a secure, custom VPC network for the RecruitPro project.
+- Implement the 3-tier architecture with Public, Private App, and Private DB subnets.
+- Establish correct routing using Internet and NAT Gateways.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks carried out this week:
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 05/29/2026 | Created `RecruitPro-VPC` with CIDR `10.10.0.0/16` in the `ap-southeast-1` region. | 05/29/2026 | 05/29/2026 | AWS VPC settings |
+| 05/30/2026 | Provisioned 2 Public Subnets, 2 Private App Subnets, and 2 Private DB Subnets across two AZs. | 05/30/2026 | 05/30/2026 | Subnet planning sheet |
+| 05/31/2026 | Attached an Internet Gateway (IGW) to the VPC and created a NAT Gateway with an Elastic IP. | 05/31/2026 | 05/31/2026 | AWS Networking Guide |
+| 06/01/2026 – 06/02/2026 | Configured the Public Route Table (to IGW) and Private Route Tables (to NAT Gateway). | 06/01/2026 | 06/02/2026 | Route Table configurations |
+| 06/03/2026 | Created the core Security Groups for ALB (Public), EC2 (Private), and RDS (Private). | 06/03/2026 | 06/03/2026 | Security Group policies |
+| 06/04/2026 | Verified subnet associations and ensured DB subnets had no outbound internet access. | 06/04/2026 | 06/04/2026 | VPC reachability analyzer |
 
 ### Week 7 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Successfully built a resilient, isolated network foundation for RecruitPro.
+- Understood how to shield internal application servers and databases from direct public access.
+- Correctly chained Security Groups so that RDS only accepts traffic from the EC2 backend.

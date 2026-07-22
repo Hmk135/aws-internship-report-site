@@ -1,44 +1,25 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-07-22
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+# Events Participated
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+During my internship, I actively participated in FCAJ events to broaden my knowledge of AWS infrastructure, cloud security, and practical AI integrations. These events provided me with a valuable opportunity to learn from industry experts, gain hands-on insights, and discover best practices that I could directly apply to the RecruitPro project and my future career.
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+## [Event 1 – FCAJ Community Day](4.1-Event1/)
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+- **Date:** 23 May 2026.
+- **Role:** Attendee.
+- **Main topics:** Prompt engineering (Context optimization), data access controls in AI, CloudFront for security, hackathon strategies, LLM non-determinism, and Enterprise Multi-Agent workflows.
+- **Outcome:** Gained a deeper understanding of how to craft precise AI contexts, leveraged CloudFront as a protective shield for web applications, and recognized the strict controls required for deploying real-world AI systems.
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+## [Event 2 – Security, Monitoring & Certification](4.2-Event2/)
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
-
----
-
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+- **Date:** 11 July 2026.
+- **Role:** Attendee.
+- **Main topics:** AWS Cloud Practitioner exam strategies (elimination techniques, language pitfalls), meaningful system monitoring beyond basic SLAs, and securing web applications using the autonomous Frontier Agent.
+- **Outcome:** Acquired practical tactics for passing AWS certifications, shifted my mindset toward monitoring metrics that truly impact system health, and learned the effectiveness of strong authentication (like MFA) against automated AI threats.

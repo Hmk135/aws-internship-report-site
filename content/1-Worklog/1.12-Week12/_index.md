@@ -1,57 +1,31 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-07-03
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+
+{{% notice warning %}}
+ **Note:** The following content records the learning and implementation activities completed during the week and is intended for the personal worklog report.
 {{% /notice %}}
 
-
 ### Week 12 Objectives:
+- Finalize the internship report and self-evaluation.
+- Clean up the code repository and verify Git history.
+- Safely dismantle unused AWS resources to prevent extra billing.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks carried out this week:
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 07/03/2026 | Reviewed the entire RecruitPro architecture diagram and documentation. | 07/03/2026 | 07/03/2026 | Project Specs |
+| 07/04/2026 – 07/05/2026 | Wrote the comprehensive Self-Assessment and Feedback sections for the Hugo website. | 07/04/2026 | 07/05/2026 | Personal Notes |
+| 07/06/2026 | Reviewed Git commits to ensure all markdown files and images were pushed correctly. | 07/06/2026 | 07/06/2026 | Git CLI / GitHub |
+| 07/07/2026 – 07/08/2026 | Conducted a final cross-check of the website display locally using `hugo server`. | 07/07/2026 | 07/08/2026 | Hugo framework |
+| 07/09/2026 | Destroyed resources: Terminated EC2, deleted RDS, ALB, NAT Gateway, and released Elastic IPs. | 07/09/2026 | 07/09/2026 | AWS Resource Cleanup |
 
 ### Week 12 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Successfully concluded the FCAJ program and finalized a professional project report.
+- Learned the critical importance of resource cleanup in cloud environments.
+- Gained a comprehensive understanding of deploying a full-stack cloud application from end to end.

@@ -1,126 +1,61 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Event 11/7/2026 - Security, Monitoring & Certification"
+date: 2026-07-11
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Insights from the July 11 Event
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+On July 11, 2026, I attended another insightful event focusing on cloud certification, system monitoring, and AI-driven security. This session provided practical strategies for passing AWS exams and deep dives into securing modern web applications using autonomous agents.
 
-### Event Objectives
+## Overview of Presentations
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Speaker (Huy): **Inside The Exam: AWS Cloud Practitioner**.
+- Nguyễn Huỳnh Sơn: **SLA and Monitoring - From SLA to Monitoring what really matters**.
+- Thinh Nguyen: **Securing Your Web Apps With AWS Security Agent**.
 
-### Speakers
+## Key Insights and Learnings
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+### Cracking the AWS Cloud Practitioner Exam
+The session provided valuable "Tips & Tricks" for the exam:
+- **Elimination technique:** Questions often provide four answer choices, in which two are "made-up" services or completely irrelevant; eliminating those first increases your chances of getting the correct answer to 50%.
+- **Don't overthink:** The Cloud Practitioner exam focuses on fundamental knowledge. If a question seems to require overly complex configuration, you're likely overthinking it, so choose the simplest answer.
+- **Language pitfalls:** The English exam can be tricky, so it is recommended to highlight decisive terms immediately when reading questions, such as "Not", "Least cost", or "Most scalable".
 
-### Key Highlights
+### Meaningful Monitoring
+Nguyễn Huỳnh Sơn emphasized shifting the focus from standard SLA numbers to monitoring metrics that actually matter to the system and business.
 
-#### Identifying the drawbacks of legacy application architecture
+### Overcoming the Security Bottleneck
+Thinh Nguyen highlighted that traditional manual penetration testing is time-consuming (taking weeks) and expensive (with high daily rates for specialized hackers). It is also inconsistent because coverage depends on the tester's mood or skill, resulting in high operational costs of around $20k for third-party assessments.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### AI-Powered Security with Frontier Agent
+To solve this bottleneck, the "Frontier Agent" was introduced. It features:
+- **Autonomous Reasoning:** Powered by Amazon Bedrock, it plans and executes security tasks without human intervention.
+- **Full Lifecycle Coverage:** It handles Design Review, Code Security, and Active Penetration Testing.
+- **Verifiable Findings:** Unlike LLM chatbots, it verifies vulnerabilities by attempting real exploitation.
+- **Design Security Review:** You can upload Markdown docs or Terraform code to verify against Managed Packs (like PCI DSS, NIST CSF, AWS Well-Architected) to check if the design meets security "Requirements". This feature includes a Free Tier of 200 reviews/month.
 
-#### Transitioning to modern application architecture – Microservices
+### Limitations of AI Security Agents
+Despite their capabilities, AI agents have critical limitations:
+- **Auth Blocks:** Implementations like MFA, Biometrics, and mTLS will stop the agent in its tracks.
+- **Logic Flaws:** Agents find it difficult to detect business-logic fraud without deep context.
+- **Task-Hour Accumulation:** Complex apps burn hours fast, making monitoring mandatory.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+## Actionable Takeaways
+- Always highlight key constraints like "Least cost" or "Most scalable" when analyzing cloud problems or exam questions.
+- Move beyond basic SLAs to monitor what truly matters for system health.
+- Leverage automated Design Security Reviews against frameworks like AWS Well-Architected.
+- Implement strong authentication blocks like MFA and Biometrics, as they are highly effective roadblocks against autonomous agents.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+## How This Applies to RecruitPro
+The exam strategies directly support my goal of achieving AWS certification. For RecruitPro, I will rethink our CloudWatch dashboards to monitor what truly matters rather than just checking basic uptime metrics. Furthermore, learning that MFA stops AI agents reinforces my decision to implement strict authentication for our administrative backend.
 
-#### Domain-Driven Design (DDD)
+## Proof of Attendance
+![My photo at FCAJ Community Day](</images/4-EventParticipated/4.2-Event2/Picture3.jpg>)
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+![Photo taken during the event](</images/4-EventParticipated/4.2-Event2/picture4.jpg>)
 
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+## Conclusion
+This event perfectly balanced career development with advanced technical knowledge. It opened my eyes to the future of automated penetration testing and the enduring importance of foundational security practices like MFA.

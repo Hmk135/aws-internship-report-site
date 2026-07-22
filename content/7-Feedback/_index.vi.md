@@ -1,44 +1,27 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+title: "Chia sẻ và Đánh giá"
+date: 2026-07-22
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+# Chia sẻ và Đánh giá Chương trình
 
-### Đánh giá chung
+Tham gia chương trình First Cloud Journey (FCAJ) là một bước ngoặt lớn giúp tôi chuyển giao từ những lý thuyết trên giảng đường sang môi trường thực tế. Điều tôi đánh giá cao nhất ở FCAJ là văn hóa chia sẻ cởi mở. Các mentor không cầm tay chỉ việc mà đóng vai trò là người định hướng, luôn đưa ra những từ khóa (keywords) gợi ý để thực tập sinh tự tìm tòi và giải quyết vấn đề của mình.
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+Việc được trực tiếp tham gia xây dựng dự án RecruitPro mang lại cho tôi sự hứng thú rất lớn. Tôi đã được tận tay thiết lập các dịch vụ đám mây, tự mình cấu hình mạng và hiểu rõ luồng đi của dữ liệu thay vì chỉ đọc qua tài liệu.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+Khi làm việc cùng nhóm **NTM**, tôi rất trân trọng tinh thần đoàn kết và sẵn sàng hỗ trợ nhau trong những lúc hệ thống gặp lỗi (bug). Tuy nhiên, tôi nhận thấy nhóm có thể làm tốt hơn nếu áp dụng triệt để các công cụ quản lý dự án (như Trello hay Jira) ngay từ đầu để theo dõi tiến độ công việc minh bạch và tránh bị dồn việc vào sát ngày deadline.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+Đối với chương trình FCAJ, tôi hy vọng trong tương lai sẽ có thêm các buổi chia sẻ chuyên sâu về kỹ năng Debugging (gỡ lỗi) hệ thống hoặc tổ chức các buổi Mini-Hackathon nội bộ để các nhóm có cơ hội cọ xát và ứng dụng kiến thức dưới áp lực thời gian.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+## Suy ngẫm cá nhân
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+Trong những tuần đầu tiên, tôi thực sự đã bị choáng ngợp bởi số lượng dịch vụ khổng lồ và các thuật ngữ phức tạp của AWS. Mỗi khi gặp lỗi truy cập, tôi thường bối rối không biết nguyên nhân nằm ở Security Group, Route Table hay IAM Policy. Tuy nhiên, bằng cách chia nhỏ kiến trúc thành từng phần để kiểm tra (từ Network, đến Compute, rồi đến Database) và chủ động thảo luận cùng mentor, tôi đã dần hình thành được tư duy giải quyết vấn đề có hệ thống.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+Mục tiêu sắp tới của tôi là tiếp tục trau dồi các kỹ năng còn thiếu sót, đặc biệt là khả năng đọc hiểu tài liệu tiếng Anh kỹ thuật và kỹ năng thuyết trình. Tôi cũng đặt mục tiêu sẽ ôn tập để thi lấy chứng chỉ AWS (như Cloud Practitioner hoặc Solutions Architect) nhằm củng cố và chuẩn hóa lại nền tảng kiến thức của mình.
 
+Tổng kết lại, kỳ thực tập đã diễn ra vô cùng ý nghĩa và vượt ngoài mong đợi của tôi. Tôi đã thu nhận được không chỉ kiến thức công nghệ mà còn là tư duy làm việc chuyên nghiệp.
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
-
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+Cuối cùng, tôi xin gửi lời cảm ơn chân thành đến các anh chị Mentor, đội ngũ Admin và các thành viên nhóm NTM đã đồng hành và hỗ trợ tôi hết mình trong suốt chặng đường vừa qua.

@@ -1,47 +1,27 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-07-22
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+# Sharing and Program Feedback
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+Joining the First Cloud Journey (FCAJ) program was a significant milestone that bridged the gap between my academic theory and real-world application. What I appreciated most about FCAJ was the open culture of knowledge sharing. The mentors did not just spoon-feed us the answers; instead, they acted as facilitators, providing strategic keywords and guiding us to research and resolve issues independently.
 
-### Overall Evaluation
+Building the RecruitPro project from scratch was an incredibly engaging experience. I was able to provision cloud services hands-on, configure networks, and truly understand data flow rather than just reading about it in documentation.
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+Working with team **NTM** was a pleasure, and I highly valued our collaborative spirit when troubleshooting system bugs together. However, I believe our team could have been more efficient if we had strictly adopted project management tools (like Trello or Jira) from the very beginning. This would have provided better transparency for task tracking and prevented last-minute rushes near deadlines.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+As for the FCAJ program, I suggest incorporating more deep-dive sessions focusing on system Debugging skills. Additionally, organizing internal Mini-Hackathons would be a fantastic way for teams to apply their skills under time pressure and learn from one another.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+## Personal Reflection
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+During the first few weeks, I felt genuinely overwhelmed by the sheer number of AWS services and complex terminologies. Whenever I encountered connectivity issues, I struggled to determine whether the root cause lay in Security Groups, Route Tables, or IAM Policies. However, by learning to break down the architecture into smaller, manageable components (testing Network, then Compute, then Database) and proactively discussing issues with my mentor, I gradually developed a more systematic problem-solving mindset.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+My immediate goal is to continue honing my weaknesses, particularly in technical English reading comprehension and public speaking. I also plan to start preparing for AWS certifications (such as Cloud Practitioner or Solutions Architect) to validate and solidify my cloud computing knowledge.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+Overall, this internship was a highly rewarding experience that exceeded my expectations. I gained not only technical expertise but also a professional working mindset.
 
----
-
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
-
----
-
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+Finally, I would like to express my deepest gratitude to the Mentors, the Admin team, and my fellow NTM members for their unwavering support and guidance throughout this journey.

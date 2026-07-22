@@ -1,59 +1,31 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+title: "Nhật ký Tuần 11"
+date: 2026-06-26
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+ **Lưu ý:** Nội dung dưới đây ghi chép lại các hoạt động học tập và thực hành đã hoàn thành trong tuần, được sử dụng cho báo cáo nhật ký công việc cá nhân.
 {{% /notice %}}
 
+### Mục tiêu Tuần 11:
+- Triển khai giám sát hệ thống (monitoring) sử dụng Amazon CloudWatch.
+- Tăng cường bảo mật ứng dụng bằng AWS WAF.
+- Thực hiện kiểm thử lần cuối cho hệ thống RecruitPro.
 
-### Mục tiêu tuần 11:
+### Các công việc thực hiện trong tuần:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 26/06/2026 | Khám phá CloudWatch Metrics và Logs cho EC2, RDS, và ALB. | 26/06/2026 | 26/06/2026 | Tổng quan CloudWatch |
+| 27/06/2026 – 28/06/2026 | Tạo một CloudWatch Dashboard tùy chỉnh để theo dõi CPU của EC2 và số lượng kết nối DB. | 27/06/2026 | 28/06/2026 | Cấu hình Dashboard |
+| 29/06/2026 | Thiết lập CloudWatch Alarms để gửi email thông báo (qua SNS) nếu CPU vượt mức 80%. | 29/06/2026 | 29/06/2026 | AWS SNS & CloudWatch |
+| 30/06/2026 – 01/07/2026 | Cấu hình AWS WAF (Web Application Firewall) Web ACL và gắn nó vào CloudFront. | 30/06/2026 | 01/07/2026 | Các quy tắc AWS WAF |
+| 02/07/2026 | Tiến hành kiểm thử hệ thống: tải file lên, truy xuất dữ liệu, và kiểm tra các luật chặn của WAF. | 02/07/2026 | 02/07/2026 | Kiểm thử Ứng dụng |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được trong Tuần 11:
+- Xây dựng giải pháp giám sát chủ động để tự động theo dõi sức khỏe hệ thống.
+- Bổ sung một lớp bảo mật cực kỳ quan trọng bằng cách lọc các luồng truy cập web độc hại với AWS WAF.
+- Đảm bảo hệ thống RecruitPro đã hoạt động đầy đủ chức năng, ổn định và an toàn.

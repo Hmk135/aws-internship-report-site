@@ -13,25 +13,27 @@ chapter: false
 {{% /notice %}}
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Hoang Minh Khang
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Phone Number:** 0358887391 
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** khanghoang2201@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** Ho Chi Minh City University of Technology
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHG5
 
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Team Name:** NTM
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Position:** FCJ Cloud Intern
 
-![Your profile picture](/images/avatar.png)
+&emsp; **Internship Duration:** From 17/04/2026 to 30/07/2026
+
+![Your profile picture](/images/avatar.jpg)
 
 ### Report Content
 

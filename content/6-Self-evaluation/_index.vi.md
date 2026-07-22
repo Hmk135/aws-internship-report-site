@@ -1,40 +1,36 @@
 ---
 title: "Tự đánh giá"
-date: 2024-01-01
+date: 2026-07-22
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Tự Đánh Giá Quá Trình Thực Tập
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Trong suốt thời gian thực tập từ **17/04/2026 đến 30/07/2026** và tham gia chương trình **FCAJ (First Cloud Journey)**, tôi đã có cơ hội chuyển hóa những kiến thức lý thuyết thành một hệ thống thực tế thông qua dự án RecruitPro. Thay vì chỉ học về AWS cơ bản, chương trình FCAJ còn mở rộng góc nhìn của tôi về việc tích hợp AI vào hệ thống doanh nghiệp.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Điểm nổi bật nhất trong quá trình này là việc tự tay thiết kế kiến trúc 3 lớp (3-tier architecture) sử dụng VPC, EC2, RDS và tối ưu hóa hiệu suất website bằng CloudFront. Bên cạnh đó, thông qua các buổi workshop và FCAJ Community Day, tôi đã tích lũy thêm những góc nhìn thực tế về AI Agent, Prompt Engineering và tầm quan trọng của việc kiểm soát quyền truy cập dữ liệu (như bài học từ Amazon Q). Việc kết hợp giữa hạ tầng Cloud (AWS) và tư duy phát triển AI đã giúp tôi định hình rõ hơn con đường phát triển của mình.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+## Đánh Giá Năng Lực Cá Nhân
 
+| Tiêu chí | Mức độ |
+|---|---|
+| Kiến thức chuyên môn | Tốt |
+| Khả năng học hỏi | Xuất sắc |
+| Sự chủ động | Tốt |
+| Tinh thần trách nhiệm | Tốt |
+| Kỹ năng giao tiếp | Khá |
+| Làm việc nhóm | Tốt |
+| Kỹ năng giải quyết vấn đề | Tốt |
+| **Đánh giá chung** | **Tốt** |
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+## Những Điểm Cần Cải Thiện
 
-### Cần cải thiện
+Dù đã triển khai thành công hệ thống, tôi nhận thấy mình vẫn đang phụ thuộc nhiều vào việc thao tác thủ công (ClickOps) trên AWS Console. Trong tương lai, tôi cần tìm hiểu thêm về Tự động hóa và Infrastructure as Code (như Terraform hoặc AWS CloudFormation) để tối ưu thời gian triển khai. 
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+Ngoài ra, tôi cần chú ý hơn đến việc tối ưu hóa chi phí (Cost Optimization) và thiết lập các cảnh báo ngân sách (Billing Alerts) chặt chẽ hơn. Về mặt kỹ năng mềm, tôi sẽ cố gắng chủ động đưa ra ý kiến và phản biện nhiều hơn trong các buổi họp nhóm, thay vì chỉ tập trung vào việc hoàn thành task được giao.
+
+## Kết Luận
+
+Chương trình FCAJ và kỳ thực tập này là một bước đệm vững chắc cho sự nghiệp của tôi. Tôi tự hào vì đã tự tay xây dựng và triển khai hoàn thiện một dự án lên môi trường Cloud thực tế. Những kinh nghiệm từ việc xử lý lỗi cấu hình mạng cho đến những kiến thức mới mẻ về AI sẽ là hành trang quý giá cho các dự án sắp tới.

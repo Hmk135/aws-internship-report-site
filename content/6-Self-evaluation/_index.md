@@ -1,39 +1,36 @@
 ---
 title: "Self-Assessment"
-date: 2024-01-01
+date: 2026-07-22
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Internship Self-Assessment
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+During my internship from **April 17, 2026, to July 30, 2026**, and through my participation in the **FCAJ (First Cloud Journey)** program, I had the opportunity to transform theoretical knowledge into a practical system via the RecruitPro project. Beyond learning foundational AWS services, the FCAJ program broadened my perspective on integrating AI into enterprise architectures.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+The highlight of this journey was designing and deploying a 3-tier architecture from scratch using VPC, EC2, and RDS, while optimizing website performance with CloudFront. Furthermore, attending workshops and the FCAJ Community Day equipped me with practical insights into AI Agents, Prompt Engineering, and the critical importance of data access controls (as seen with Amazon Q). Combining Cloud infrastructure (AWS) with an AI development mindset has given me a much clearer career direction.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+## Performance Evaluation
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| Criterion | Rating |
+|---|---|
+| Professional knowledge | Good |
+| Ability to learn | Excellent |
+| Proactiveness | Good |
+| Responsibility | Good |
+| Communication | Fair |
+| Teamwork | Good |
+| Problem solving | Good |
+| **Overall** | **Good** |
 
-### Needs Improvement
+## Areas for Improvement
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+Although I successfully deployed the system, I realized that I rely heavily on manual configurations (ClickOps) via the AWS Management Console. Moving forward, I need to learn Automation and Infrastructure as Code (such as Terraform or AWS CloudFormation) to streamline the deployment process.
+
+Additionally, I want to pay closer attention to Cost Optimization and setting up stricter Billing Alerts to prevent unexpected charges. Regarding soft skills, I aim to be more vocal and proactive in sharing my ideas and providing critical feedback during team meetings, rather than just focusing on completing assigned tasks.
+
+## Conclusion
+
+The FCAJ program and this internship have provided a solid stepping stone for my career. I am proud to have successfully built and deployed a working project in a real-world cloud environment. The hands-on experience, from troubleshooting network routing issues to exploring modern AI applications, will serve as a valuable foundation for my future projects.

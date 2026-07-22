@@ -1,125 +1,61 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Sự kiện 11/7/2026 - Bảo mật, Giám sát & Chứng chỉ AWS"
+date: 2026-07-11
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Những bài học từ sự kiện ngày 11 tháng 7
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+Vào ngày 11 tháng 7 năm 2026, tôi đã tham dự một sự kiện chuyên sâu về chứng chỉ đám mây, giám sát hệ thống và bảo mật ứng dụng bằng AI. Phiên chia sẻ này mang đến các chiến lược thực tế để vượt qua các bài thi AWS và góc nhìn sâu sắc về việc bảo mật các ứng dụng web hiện đại bằng các tác nhân AI tự trị (autonomous agents).
 
-### Mục Đích Của Sự Kiện
+## Tổng quan các phiên chia sẻ
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Diễn giả (Huy): **Inside The Exam: AWS Cloud Practitioner**.
+- Nguyễn Huỳnh Sơn: **SLA and Monitoring - From SLA to Monitoring what really matters**.
+- Thịnh Nguyễn: **Securing Your Web Apps With AWS Security Agent**.
 
-### Danh Sách Diễn Giả
+## Những kiến thức trọng tâm
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Bí quyết chinh phục kỳ thi AWS Cloud Practitioner
+Sự kiện đã chia sẻ những "Mẹo & Thủ thuật" (Tips & Tricks) rất giá trị cho kỳ thi:
+- **Phương pháp loại trừ (Elimination technique):** Các câu hỏi thường có 4 đáp án, trong đó có 2 đáp án là các dịch vụ "bịa ra" hoặc hoàn toàn không liên quan; loại trừ chúng trước sẽ giúp tăng cơ hội chọn đúng lên 50%.
+- **Đừng nghĩ quá phức tạp (Don't overthink):** Bài thi Cloud Practitioner tập trung vào kiến thức nền tảng. Nếu một câu hỏi có vẻ yêu cầu cấu hình quá phức tạp, khả năng cao là bạn đang làm phức tạp hóa vấn đề, hãy chọn đáp án đơn giản và trực diện nhất.
+- **Cạm bẫy ngôn ngữ (Language pitfalls):** Bài thi tiếng Anh có thể đánh lừa người đọc, do đó diễn giả khuyên nên làm nổi bật ngay các từ khóa mang tính quyết định khi đọc câu hỏi như "Not" (Không), "Least cost" (Chi phí thấp nhất) hay "Most scalable" (Khả năng mở rộng cao nhất).
 
-### Nội Dung Nổi Bật
+### Giám sát hệ thống thực chất
+Anh Nguyễn Huỳnh Sơn nhấn mạnh việc dịch chuyển góc nhìn từ các con số SLA tiêu chuẩn sang việc giám sát những chỉ số thực sự quan trọng đối với hệ thống và doanh nghiệp.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+### Vượt qua "Nút thắt Bảo mật"
+Anh Thịnh Nguyễn chỉ ra rằng các bài kiểm tra thâm nhập (penetration testing) thủ công truyền thống rất tốn thời gian (mất hàng tuần) và đắt đỏ (chi phí theo ngày của các hacker chuyên nghiệp rất cao). Nó cũng thiếu tính nhất quán vì độ bao phủ phụ thuộc vào tâm trạng hoặc kỹ năng của người kiểm tra, dẫn đến chi phí vận hành cao, lên tới khoảng 20 nghìn đô la cho các dịch vụ đánh giá bên thứ ba.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+### Bảo mật bằng AI với Frontier Agent
+Để giải quyết nút thắt này, "Frontier Agent" đã được giới thiệu. Nó có các đặc điểm:
+- **Lập luận tự trị (Autonomous Reasoning):** Được hỗ trợ bởi Amazon Bedrock, nó có thể tự lên kế hoạch và thực thi các tác vụ bảo mật mà không cần con người can thiệp.
+- **Bao phủ toàn vòng đời (Full Lifecycle):** Nó xử lý từ Đánh giá thiết kế (Design Review), Bảo mật mã nguồn, cho đến Kiểm thử thâm nhập chủ động (Active Pentesting).
+- **Phát hiện có thể xác thực (Verifiable Findings):** Khác với các chatbot LLM thông thường, nó xác minh các lỗ hổng bằng cách cố gắng khai thác chúng trên thực tế.
+- **Đánh giá Thiết kế Bảo mật (Design Security Review):** Bạn có thể tải lên các file Markdown hoặc mã Terraform để agent đối chiếu với các bộ tiêu chuẩn (Managed Packs) như PCI DSS, NIST CSF, AWS Well-Architected nhằm kiểm tra xem thiết kế có đáp ứng các "Yêu cầu" bảo mật hay không. Tính năng này cung cấp gói Free Tier miễn phí 200 lượt đánh giá/tháng.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+### Những hạn chế của AI Security Agents
+Dù rất mạnh mẽ, các tác nhân AI cũng có những hạn chế chí mạng:
+- **Rào cản xác thực (Auth Blocks):** Việc áp dụng MFA (Xác thực đa yếu tố), Sinh trắc học (Biometrics) hay mTLS sẽ chặn đứng agent ngay lập tức.
+- **Lỗi logic (Logic Flaws):** Agent rất khó phát hiện các gian lận về logic nghiệp vụ (business-logic fraud) nếu thiếu ngữ cảnh sâu sát.
+- **Tích lũy giờ làm (Task-Hour Accumulation):** Các ứng dụng phức tạp sẽ làm agent đốt thời gian rất nhanh, do đó việc giám sát (monitoring) là bắt buộc.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+## Những hành động có thể áp dụng ngay
+- Luôn gạch dưới các ràng buộc chính như "Least cost" (Chi phí thấp nhất) hay "Most scalable" khi phân tích các bài toán Cloud hoặc đề thi.
+- Vượt ra khỏi các chỉ số SLA cơ bản để thiết lập giám sát những gì thực sự ảnh hưởng đến "sức khỏe" hệ thống.
+- Tận dụng tính năng Đánh giá Thiết kế Bảo mật tự động đối chiếu với các chuẩn như AWS Well-Architected.
+- Áp dụng các rào cản xác thực mạnh như MFA và Sinh trắc học, vì chúng cực kỳ hiệu quả trong việc chặn đứng các tác nhân tấn công tự động.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+## Ứng dụng vào dự án RecruitPro
+Các chiến lược làm bài thi sẽ trực tiếp giúp tôi đạt được chứng chỉ AWS trong thời gian tới. Đối với RecruitPro, tôi sẽ thiết kế lại các dashboard trên CloudWatch để giám sát những chỉ số thực sự quan trọng thay vì chỉ đo lường uptime cơ bản. Hơn nữa, việc biết được MFA có thể vô hiệu hóa AI agent càng củng cố quyết định của tôi trong việc áp dụng xác thực khắt khe cho trang quản trị backend của dự án.
 
-#### Domain-Driven Design (DDD)
+## Minh chứng tham gia
+![My photo at FCAJ Community Day](</images/4-EventParticipated/4.2-Event2/Picture3.jpg>)
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+![Photo taken during the event](</images/4-EventParticipated/4.2-Event2/picture4.jpg>)
 
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
-
-### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+## Kết luận
+Sự kiện này là sự kết hợp hoàn hảo giữa phát triển nghề nghiệp (mẹo thi chứng chỉ) và kiến thức kỹ thuật nâng cao (AI Security Agent). Nó giúp tôi mở rộng tầm mắt về tương lai của quy trình kiểm thử tự động, đồng thời khẳng định lại tầm quan trọng bền vững của các phương pháp bảo mật nền tảng như MFA.

@@ -1,59 +1,31 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký Tuần 3"
+date: 2026-05-01
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+ **Lưu ý:** Nội dung dưới đây ghi chép lại các hoạt động học tập và thực hành đã hoàn thành trong tuần, được sử dụng cho báo cáo nhật ký công việc cá nhân.
 {{% /notice %}}
 
+### Mục tiêu Tuần 3:
+- Nắm vững kiến thức cơ bản về Amazon EC2 (Elastic Compute Cloud) và EBS.
+- Thực hành kết nối vào EC2 bằng SSH và hiểu về Key Pairs.
+- Cài đặt một web server cơ bản trên máy chủ Linux.
 
-### Mục tiêu tuần 3:
+### Các công việc thực hiện trong tuần:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 01/05/2026 | Xem lại các dòng máy EC2 (t2, t3) và Amazon Machine Images (AMI). | 01/05/2026 | 01/05/2026 | Tổng quan AWS EC2 |
+| 02/05/2026 – 03/05/2026 | Khởi tạo một máy chủ EC2 Amazon Linux 2023 và tạo mới một Key Pair `.pem`. | 02/05/2026 | 03/05/2026 | AWS EC2 Console |
+| 04/05/2026 | Kết nối vào máy chủ EC2 bằng SSH (thông qua Termius/MobaXterm). | 04/05/2026 | 04/05/2026 | Cấu hình SSH Client |
+| 05/05/2026 | Cấu hình Security Groups để cho phép truy cập SSH (port 22) và HTTP (port 80). | 05/05/2026 | 05/05/2026 | Quy tắc Security Group |
+| 06/05/2026 – 07/05/2026 | Cài đặt Apache Web Server (`httpd`), khởi động dịch vụ và kiểm tra trang web mặc định. | 06/05/2026 | 07/05/2026 | Các lệnh Linux CLI |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 3:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được trong Tuần 3:
+- Thành thạo các bước khởi tạo EC2 và hiểu vai trò của Security Groups như một tường lửa ảo.
+- Kết nối an toàn vào một máy chủ đám mây bằng giao thức SSH.
+- Chuyển đổi thành công một máy chủ Linux thô thành một web server hoạt động được.

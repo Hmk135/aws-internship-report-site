@@ -1,59 +1,31 @@
 ---
-title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+title: "Nhật ký Tuần 9"
+date: 2026-06-12
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+ **Lưu ý:** Nội dung dưới đây ghi chép lại các hoạt động học tập và thực hành đã hoàn thành trong tuần, được sử dụng cho báo cáo nhật ký công việc cá nhân.
 {{% /notice %}}
 
+### Mục tiêu Tuần 9:
+- Chuẩn bị EC2 Backend để chạy ứng dụng.
+- Triển khai source code dự án RecruitPro và các thư viện cần thiết.
+- Cấp quyền cho EC2 truy cập và tải file lên S3 một cách an toàn thông qua IAM Roles.
 
-### Mục tiêu tuần 9:
+### Các công việc thực hiện trong tuần:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 12/06/2026 | Tạo một IAM Role cấp quyền truy cập S3 và gắn vào máy chủ EC2 Backend. | 12/06/2026 | 12/06/2026 | IAM Roles cho EC2 |
+| 13/06/2026 – 14/06/2026 | Cài đặt Java (JDK) và các môi trường chạy cần thiết trên EC2 Backend. | 13/06/2026 | 14/06/2026 | Trình quản lý gói Linux |
+| 15/06/2026 | Chuyển file build `.jar` và script khởi tạo SQL vào máy chủ EC2 private. | 15/06/2026 | 15/06/2026 | SCP / WinSCP |
+| 16/06/2026 – 17/06/2026 | Import database schema vào RDS và cấu hình file `application.properties` của ứng dụng. | 16/06/2026 | 17/06/2026 | Source Code Dự án |
+| 18/06/2026 | Tạo dịch vụ `systemd` để chạy ứng dụng Spring Boot ngầm và an toàn. | 18/06/2026 | 18/06/2026 | Tài liệu systemd |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kết quả đạt được trong Tuần 9:
+- Loại bỏ hoàn toàn việc phải lưu cứng (hardcode) thông tin xác thực AWS bằng cách sử dụng IAM Roles.
+- Khởi động thành công ứng dụng backend và xác nhận hệ thống chạy ổn định.
+- Học cách quản lý các tiến trình chạy ngầm (background processes) trên Linux bằng `systemd`.
